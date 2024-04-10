@@ -1,0 +1,140 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.input-group{
+    display: flex;
+    padding-inline: 3em;
+    border-radius: 1em;
+    margin: 0.5em;
+}
+
+h1 {
+    align-self: center;
+}
+
+.input-main {
+    margin: 1em;
+    padding: 1.5em;
+    border: 0;
+    border-radius: 2em;
+    background-color: rgb(225, 225, 225);
+}
+
+.button-main {
+    margin: 1em;
+    padding: 1em;
+    border: 0;
+    border-radius: 2em;
+    box-shadow: 0 0 20px 2px rgb(185, 185, 185);
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.button-main:hover {
+    padding: 1em;
+    border: 0;
+    border-radius: 1em;
+    box-shadow: 0 0 10px 2px rgb(185, 185, 185);
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.button-main:active {
+    padding: 1em;
+    border: 0;
+    border-radius: 1em;
+    box-shadow: 0 0 10px 1px rgb(185, 185, 185);
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+
+
+
+
+ul{
+    padding: 0;
+}
+
+.li-task{
+    list-style: none inside;
+    background-color: rgb(192, 209, 224);
+    margin: 0.5em;
+    border-radius: 1em;
+    padding-inline: 1em;
+    transition: 0.25s;
+}
+
+.input {
+    padding: 1em;
+    margin: 1em;
+    border: 0;
+    border-radius: 1em;
+    background-color: rgb(255, 255, 255);
+}
+
+.button-done {
+    padding: 1em;
+    margin: 1em;
+    border: 0;
+    border-radius: 0.5em;
+    box-shadow: 0 0 20px 2px rgb(185, 185, 185);
+    background-color: rgb(93, 199, 93);
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.button-done:hover {
+    padding: 1em;
+    margin: 1em;
+    border: 0;
+    border-radius: 0.5em;
+    box-shadow: 0 0 10px 2px rgb(93, 199, 93);
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.button-done:active {
+    padding: 1em;
+    margin: 1em;
+    border: 0;
+    border-radius: 0.5em;
+    box-shadow: 0 0 10px 1px rgb(93, 199, 93);
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.button-delete {
+    padding: 1em;
+    margin: 1em;
+    border: 0;
+    border-radius: 0.5em;
+    box-shadow: 0 0 20px 2px rgb(185, 185, 185);
+    background-color: rgb(199, 93, 93);
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.button-delete:hover {
+    padding: 1em;
+    margin: 1em;
+    border: 0;
+    border-radius: 0.5em;
+    box-shadow: 0 0 10px 2px rgb(199, 93, 93);
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.button-delete:active {
+    padding: 1em;
+    margin: 1em;
+    border: 0;
+    border-radius: 0.5em;
+    box-shadow: 0 0 10px 1px rgb(199, 93, 93);
+    transition: 0.2s;
+    cursor: pointer;
+}
