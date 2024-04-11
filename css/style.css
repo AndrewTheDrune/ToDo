@@ -24,6 +24,37 @@ h1 {
     background-color: rgb(225, 225, 225);
 }
 
+.button-main:disabled {
+    margin: 1em;
+    padding: 1em;
+    border: 0;
+    border-radius: 2em;
+    background-color: rgb(210, 210, 210);
+    box-shadow: 0 0 0 0 rgb(185, 185, 185);
+    transition: 0.5s;
+    cursor: auto;
+}
+
+.button-main:disabled:hover {
+    margin: 1em;
+    padding: 1em;
+    border: 0;
+    border-radius: 2em;
+    box-shadow: 0 0 0 0 rgb(185, 185, 185);
+    transition: 0.5s;
+    cursor: auto;
+}
+
+.button-main:disabled:active {
+    margin: 1em;
+    padding: 1em;
+    border: 0;
+    border-radius: 2em;
+    box-shadow: 0 0 0 0 rgb(185, 185, 185);
+    transition: 0.5s;
+    cursor: auto;
+}
+
 .button-main {
     margin: 1em;
     padding: 1em;
